@@ -20,7 +20,8 @@
 		<Item Name="get_voltage_and_current_set_low_limit.vi" Type="VI" URL="../subvis/get_voltage_and_current_set_low_limit.vi"/>
 		<Item Name="get_voltage_set_high_limit.vi" Type="VI" URL="../subvis/get_voltage_set_high_limit.vi"/>
 		<Item Name="get_voltage_set_low_limit.vi" Type="VI" URL="../subvis/get_voltage_set_low_limit.vi"/>
-		<Item Name="sendSerialCommand.vi" Type="VI" URL="../sendSerialCommand.vi"/>
+		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
+		<Item Name="send_serial_command.vi" Type="VI" URL="../subvis/send_serial_command.vi"/>
 		<Item Name="set_current.vi" Type="VI" URL="../subvis/set_current.vi"/>
 		<Item Name="set_output_off.vi" Type="VI" URL="../subvis/set_output_off.vi"/>
 		<Item Name="set_output_on.vi" Type="VI" URL="../subvis/set_output_on.vi"/>
