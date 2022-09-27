@@ -20,11 +20,14 @@
 		<Item Name="get_voltage_and_current_set_low_limit.vi" Type="VI" URL="../subvis/get_voltage_and_current_set_low_limit.vi"/>
 		<Item Name="get_voltage_set_high_limit.vi" Type="VI" URL="../subvis/get_voltage_set_high_limit.vi"/>
 		<Item Name="get_voltage_set_low_limit.vi" Type="VI" URL="../subvis/get_voltage_set_low_limit.vi"/>
+		<Item Name="gui.vi" Type="VI" URL="../subvis/gui.vi"/>
 		<Item Name="main.vi" Type="VI" URL="../main.vi"/>
-		<Item Name="send_serial_command.vi" Type="VI" URL="../subvis/send_serial_command.vi"/>
+		<Item Name="power_to_voltage.vi" Type="VI" URL="../subvis/power_to_voltage.vi"/>
 		<Item Name="set_current.vi" Type="VI" URL="../subvis/set_current.vi"/>
 		<Item Name="set_output_off.vi" Type="VI" URL="../subvis/set_output_off.vi"/>
 		<Item Name="set_output_on.vi" Type="VI" URL="../subvis/set_output_on.vi"/>
+		<Item Name="set_power_max.vi" Type="VI" URL="../subvis/set_power_max.vi"/>
+		<Item Name="set_power_zero.vi" Type="VI" URL="../subvis/set_power_zero.vi"/>
 		<Item Name="set_voltage.vi" Type="VI" URL="../subvis/set_voltage.vi"/>
 		<Item Name="set_voltage_and_current.vi" Type="VI" URL="../subvis/set_voltage_and_current.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -64,9 +67,6 @@
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Serial - ASCII Characters.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/examples/Instrument IO/Serial/support/Serial - ASCII Characters.ctl"/>
-			<Item Name="Serial - Settings.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/examples/Instrument IO/Serial/support/Serial - Settings.ctl"/>
-			<Item Name="Serial - XON-XOFF Characters.ctl" Type="VI" URL="../../../../../../Program Files/National Instruments/LabVIEW 2020/examples/Instrument IO/Serial/support/Serial - XON-XOFF Characters.ctl"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
